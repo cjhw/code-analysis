@@ -1,0 +1,24 @@
+{
+  "name": "code-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./api/index.js",
+  "bin": {
+    "ca": "./cli/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/compiler-dom": "^3.2.47",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "glob": "^9.3.0",
+    "js-md5": "^0.7.3",
+    "moment": "^2.29.4",
+    "ora": "^6.1.2",
+    "single-line-log": "^1.1.2",
+    "typescript": "^5.0.2"
+  }
+}
