@@ -7,6 +7,9 @@
   "bin": {
     "ca": "./cli/index.js"
   },
+  "scripts": {
+    "test": "vitest"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,5 +23,11 @@
     "ora": "^6.1.2",
     "single-line-log": "^1.1.2",
     "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/js-md5": "^0.7.0",
+    "vite": "^4.2.0",
+    "vitest": "^0.29.3"
   }
 }
