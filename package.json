@@ -1,9 +1,10 @@
 {
-  "name": "code-analysis",
+  "name": "analysis-code",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "./api/index.js",
+  "module": "./api/index.js",
   "bin": {
     "ca": "./cli/index.js"
   },
