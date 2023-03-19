@@ -8,6 +8,10 @@
   "bin": {
     "ca": "./cli/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjhw/code-analysis"
+  },
   "scripts": {
     "test": "vitest"
   },
@@ -30,5 +34,9 @@
     "@types/js-md5": "^0.7.0",
     "vite": "^4.2.0",
     "vitest": "^0.29.3"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 4.0.0"
   }
 }
